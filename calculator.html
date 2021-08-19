@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <main>
+        <div class="calc-container">
+            <div class="display-container">
+                <div class="user-input" data-previous-operand type="text"></div>
+                <div class="result" data-current-operand type="text">0</div>
+            </div>
+            <div class="btn-panel">
+                <button class="button" id="btn-ac" data-all-clear>AC</button>
+                <button class="button" id="btn-del" data-delete>DEL</button>
+                <button class="button" id="btn-perc" data-plus-minus>+/-</button>
+                <button class="button" id="btn-div" data-operation>÷</button>
+                <button class="button" class="btn-7" data-number>7</button>
+                <button class="button" class="btn-8" data-number>8</button>
+                <button class="button" class="btn-9" data-number>9</button>
+                <button class="button" id="btn-mult" data-operation>x</button>
+                <button class="button" class="btn-4" data-number>4</button>
+                <button class="button" class="btn-5" data-number>5</button>
+                <button class="button" class="btn-6" data-number>6</button>
+                <button class="button" id="btn-sub" data-operation>-</button>
+                <button class="button" class="btn-1" data-number>1</button>
+                <button class="button" class="btn-2" data-number>2</button>
+                <button class="button" class="btn-3" data-number>3</button>
+                <button class="button" id="btn-add" data-operation>+</button>
+                <button class="button" class="btn-0" data-number>0</button>
+                <button class="button" id="btn-dec" data-number>.</button>
+                <button class="button" class="btn-equal" id="equalbtn" data-equal>=</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Simon Milord © 2021</p>
+    </footer>
+    <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
